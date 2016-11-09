@@ -1,0 +1,65 @@
+			<!DOCTYPE html>
+			<html>
+			<head>
+				<title>JQuery-Autocomplete Project</title>
+			</head>
+			<body>
+			<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+			  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+			  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+			  <script>
+			  $( function() {
+			    var availableTags = [
+			      "Alabama",
+		"Alaska",
+		"Arizona",
+		"Arkansas",
+		"California",
+		"Colorado",
+		"Delaware",
+		"Florida",
+		"Georgia",
+		"Hawaii",
+		"Idaho",
+		"Illinois",
+		"Indiana",
+		"Kansas",
+		"Kentucky",
+		"Louisiana",
+		"Maine",
+		"Maryland",
+		"Massachusetts",
+		"Michigan",
+		"Minnesota",
+		"Mississippi",
+		"Missouri",
+		"Montana",
+		"Nebraska",
+		"Nevada",
+		"New Hampshire",
+		"New Jersey",
+		"New Mexico",
+		"New York",
+		"North Carolina",
+		"North Dakota",
+		"Washington",
+		"West Virginia",
+		"Wisconsin",
+		"Wyoming"
+			    ];
+			    $( "#tags" ).autocomplete({
+			      source: availableTags
+			    });
+			  } );
+			  </script>
+			</head>
+			<body>
+			 
+			<div class="ui-widget">
+			  <label for="tags">Tags: </label>
+			  <input id="tags">
+			</div>
+
+
+			</body>
+			</html>
